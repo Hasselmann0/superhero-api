@@ -11,7 +11,7 @@ using SuperHeroAPI.Data;
 namespace SuperHeroAPI.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20221102201253_Initial")]
+    [Migration("20221102212932_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,7 +49,7 @@ namespace SuperHeroAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SuperHero");
+                    b.ToTable("SuperHeroes");
                 });
 #pragma warning restore 612, 618
         }

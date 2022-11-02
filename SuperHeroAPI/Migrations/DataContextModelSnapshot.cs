@@ -47,7 +47,7 @@ namespace SuperHeroAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SuperHero");
+                    b.ToTable("SuperHeroes");
                 });
 #pragma warning restore 612, 618
         }

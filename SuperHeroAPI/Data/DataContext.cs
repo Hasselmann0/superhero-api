@@ -6,8 +6,7 @@ namespace SuperHeroAPI.Data
     {
         public DataContext(DbContextOptions<DataContext> options) : base(options) { }
 
-        public DbSet<SuperHero> SuperHero => Set<SuperHero>();
-
+        public DbSet<SuperHero> SuperHeroes => Set<SuperHero>();
 
     }
 }
